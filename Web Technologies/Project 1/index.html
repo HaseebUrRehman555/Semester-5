@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badminton Club & Equipment Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <nav>
+    <div class="logo">Badminton Hub</div>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="equipment.html">Equipment</a></li>
+      <li><a href="tournaments.html">Tournaments</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Play Fast. Play <span>Fierce.</span></h1>
+      <p>Join our university badminton club and compete at the highest level against the best players in the region.</p>
+      <a href="tournaments.html" class="btn">View Trials</a>
+    </div>
+  </header>
+
+  <main class="info">
+    <div>
+      <h3>Competitive Play</h3>
+      <p>Train with experienced coaches and represent the university in inter-college tournaments.</p>
+    </div>
+    <div>
+      <h3>Pro Equipment</h3>
+      <p>Learn how to choose the right racket and string tension for your playing style.</p>
+    </div>
+    <div>
+      <h3>Tournaments</h3>
+      <p>Explore badminton tournaments in Lahore and join the ones that match your level.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 University Badminton Club & Equipment Hub. All rights reserved.</p>
+  </footer>
+
+  <div class="overlay" id="signupOverlay">
+    <form class="form-box" id="signupForm">
+      <h2>Sign Up</h2>
+      <p class="small">Create your account to join the club.</p>
+
+      <label for="name">Name</label>
+      <input class="box" type="text" id="name" placeholder="Write your name" required>
+
+      <label>Gender</label>
+      <div class="radios">
+        <label><input type="radio" name="gender" value="Male" required> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+      </div>
+
+      <label for="email">Email</label>
+      <input class="box" type="email" id="email" placeholder="Enter your email address" required>
+
+      <label for="address">Address</label>
+      <input class="box" type="text" id="address" placeholder="Enter your Address" required>
+
+      <label for="password">Password</label>
+      <input class="box" type="password" id="password" placeholder="Enter at least 8 characters" required>
+
+      <button class="btn" type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
